@@ -1,6 +1,11 @@
 body {
     max-width: 800px;
     margin: 0 auto;
+    border-style: solid;
+    padding:20px;
+    border-width: 2px solid ;
+    margin: auto;
+    
   }
   
   .sender-column {
@@ -23,3 +28,4 @@ body {
   p, li, dd, dt, address {
     line-height: 1.5;
   }
+
