@@ -3,39 +3,42 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width">
-
+        <meta author="Dr. Eleanor Gaye" content="Letter">
         <link rel="stylesheet" href="style.css">
 
         <title>PhD Letter</title>
     </head>
     <body>
         <p>
-            <address>
-            Dr. Eleanor Gaye<br/>
+            <address class="sender-column" >
+            <strong>Dr. Eleanor Gaye</strong><br/>
             Awesome Science faculty<br/>
             University of Awesome<br/>
             Bobtown, CA 99999,<br/>
             USA<br/>
-            Tel: 123-456-7890<br/>
-            Email: no_reply@example.com<br/>
+            <strong>Tel: 123-456-7890</strong><br/>
+            <strong>Email: no_reply@example.com</strong><br/>
             </address>
+            
             <br />
-            20 January 2016<br/>
+            <time datetime="2016-01-20" >20 January 2016</time><br/>
             <br/>
+
             <address>
-            Miss Eileen Dover<br/>
+            <strong>Miss Eileen Dover</strong><br/>
             4321 Cliff Top Edge<br/>
             Dover, CT9 XXX<br/>
             UK<br/>
+            <br/>
             </address>
         </p>
 
-        <h1>Re: Eileen Dover university application</h1>
+        <h1>Re: Eileen Dover University Application</h1>
         
         <p>
             Dear Eileen,<br/>
             <br/>
-            Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your PhD next year. I will answer your questions one by one, in the following sections.
+            Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your <abbr title="Doctor of Philosophy">PhD</abbr> next year. I will answer your questions one by one, in the following sections.
         </p>
 
         <h2>Starting dates</h2>
@@ -45,15 +48,15 @@
         </p>
 
         <ul>
-            <li>First semester: 9 September 2016</li>
-            <li>Second semester: 15 January 2017</li>
-            <li>Third semester: 2 May 2017</li>
+            <li>First semester: <time datetime="2016-09-09">9 September 2016</time></li>
+            <li>Second semester: <time datetime="2017-01-15">15 January 2017</time></li>
+            <li>Third semester: <time datetime="2017-05-02">2 May 2017</time></li>
         </ul>
 
         <p>
             Please let me know if this is ok, and if so which start date you would prefer.<br/>
             <br/>
-            You can find more information about important university dates on our website.
+            You can find more information about important university dates on our <a href="http://example.com" title="Important University Dates">website</a>.
         </p>
 
         <h2>Subjects of Study</h2>
@@ -65,7 +68,7 @@
         <ol>
             <li>Turning H2O into wine, and the health benefits of Resveratrol (C14H12O3.)</li>
             <li>Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 103 increasing to 3 × 104.)</li>
-            <li>HTML and CSS constructs for representing musical scores.</li>
+            <li><abbr title="Hyper Text Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> constructs for representing musical scores.</li>
         </ol>
 
         <p>
@@ -80,7 +83,7 @@
 
         <dl>
             <dt>Polynesian chicken dance</dt>
-            <dd>A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".</dd>
+            <dd>A little known but very influential dance dating back as far as 300<abbr title="Before Common Era">BCE</abbr>, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".</dd>
 
             <dt>Icelandic brownian shuffle</dt>
             <dd>Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.</dd>
@@ -90,7 +93,7 @@
         </dl>
 
         <p>
-            For more of my research, see my <a href="http://example.com">exotic dance research page</a>.
+            For more of my research, see my exotic dance <a href="http://example.com" title="Exotic Dance Research Webage">research page</a>.
         </p>
         
         <p>
@@ -98,7 +101,7 @@
             Dr Eleanor Gaye
         </p>
 
-        <p>University of Awesome motto: <q>Be awesome to each other.</q> -- The memoirs of Bill S Preston, Esq </p>
+        <p>University of Awesome motto: <q cite="The memoirs of Bill S Preston Esq.">Be awesome to each other.</q> -- <cite>The memoirs of Bill S Preston, <abbr title="Esquire">Esq.</abbr></cite> </p>
 
     </body>
 </html>
