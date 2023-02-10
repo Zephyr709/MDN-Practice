@@ -10,7 +10,7 @@
 
       html {
         font-family: 'Open Sans', sans-serif;
-        background: url(pattern.png);
+        background: url(originals/pattern.png);
       }
 
       body {
@@ -101,12 +101,24 @@
       <h1>Mozilla</h1>
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
+      <img src="images/firefoxlogo120px.png" alt="Firefox logo">
 
     </header>
 
     <main>
       <article>
         <!-- insert iframe from youtube -->
+        <iframe width="400" height="300" 
+          src="https://www.youtube.com/embed/ojcNcvb1olg" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  
+          allowfullscreen>
+          <p>
+            <a href="https://www.youtube.com/embed/ojcNcvb1olg">
+              Fallback link
+            </a>
+          </p>
+        </iframe>
 
         <h2>Rocking the free web</h2>
 
@@ -118,22 +130,37 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <img srcset="images/firefoxlogo120px.png 120w, images/firefoxlogo400px.png 400w"
+          sizes="(max-width: 500px) 120px, 400px"
+          src="images/firefoxlogo400px.png"
+          alt="Firefox Logo">
         </a>
         <a href="https://www.mozilla.org/">
-          <img>
+          <img srcset="images/mozilladino120px.png 120w, images/mozilladino400px.png 400w"
+          sizes="(max-width: 500px) 120px, 400px"
+          src="images/mozilladino400px.png"
+          alt="Mozilla dinosaur Head">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img>
+          <img srcset="images/firefoxaddons120px.jpg 120w, images/firefoxaddons400px.jpg 400w"
+          sizes="(max-width: 500px) 120px, 400px"
+          src="images/firefoxaddons400px.jpg"
+          alt="Firefox Puzzle">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+          <img srcset="images/mdn.svg"
+          alt="Mozilla Dev Map"
+          >
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <img srcset="images/redpanda600px.jpg 600w , images/redpanda1200px.jpg 1200w"
+        sizes="(max-width: 600px) 600px, 1200px"
+        src="images/redpanda1200px.jpg"
+        alt="Red Panda chillin on a tree">
       </div>
 
     </main>
