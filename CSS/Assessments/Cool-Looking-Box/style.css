@@ -1,3 +1,24 @@
 html {
     font-family: sans-serif;
 }
+div {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    height:200px;
+    background: linear-gradient(red, orange, red);
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    border-radius: 10px;
+    border: 1px solid darkred;
+    box-shadow: 5px 5px 5px, inset 1px 1px 5px white;
+    
+    
+    
+}
+
+p {
+    color:rgb(218, 215, 213);
+}
