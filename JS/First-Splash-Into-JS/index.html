@@ -61,7 +61,10 @@
         let guessCount = 1;
         let resetButton;
 
+        guessSubmit.addEventListener('click', checkGuess);
+    
         function checkGuess() {
+
             const userGuess = Number(guessField.value);
             if (guessCount === 1) {
                 guesses.textContent = 'Previous guesses: ';
