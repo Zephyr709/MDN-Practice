@@ -99,7 +99,7 @@
             guessField.disabled = true;
             guessSubmit.disabled = true;
             resetButton = document.createElement('button');
-            resetButton.textContent = 'start a new game';
+            resetButton.textContent = 'Start a new game';
             document.body.append(resetButton);
             resetButton.addEventListener('click', resetGame);
         }
@@ -115,11 +115,11 @@
             resetButton.parentNode.removeChild(resetButton);
 
             guessField.disabled = false;
-            guessSubmitButton.disabled = false;
+            guessSubmit.disabled = false;
             guessField.value = '';
             guessField.focus();
 
-            lastResult.style.backgroundColor = 'white';
+            lastResult.style.backgroundColor = 'inherit';
 
             randomNumber = Math.floor(Math.random() * 100) + 1;
         }
